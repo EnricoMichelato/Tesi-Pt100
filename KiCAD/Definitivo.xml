@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\Matteo\Desktop\Tesi\Tesi\Definitivo.sch</source>
+    <date>20/01/2022 16:17:34</date>
+    <tool>Eeschema (5.1.7)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Definitivo.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="V+1">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60D0C264</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>CC56-43AR30CD3</value>
+      <footprint>Display_7Segment:CA56-12EWA</footprint>
+      <datasheet>http://www.kingbright.com/attachments/file/psearch/000/00/00/CC56-12SYKWA(Ver.6A).pdf</datasheet>
+      <libsource lib="Display_Character" part="CC56-12SYKWA" description="4 digit 7 segment super bright yellow LED, common cathode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CC28AA</tstamp>
+    </comp>
+    <comp ref="GND1">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60D243CC</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_DIP_x01</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_DIP_x01" description="1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60DA9343</tstamp>
+    </comp>
+    <comp ref="V-1">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60DC6D7A</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_DIP_x01</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_DIP_x01" description="1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60DCB682</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>RI</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
+      <libsource lib="Tesina-rescue" part="RI-resistenze" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E42923</tstamp>
+    </comp>
+    <comp ref="A1">
+      <value>Arduino_Nano_v2.x</value>
+      <footprint>Module:Arduino_Nano</footprint>
+      <datasheet>https://www.arduino.cc/en/uploads/Main/ArduinoNanoManual23.pdf</datasheet>
+      <libsource lib="MCU_Module" part="Arduino_Nano_v2.x" description="Arduino Nano v2.x"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61007E08</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>XLR3_Switched</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="XLR3_Switched" description="XLR Connector, Male or Female, 3 Pins, SPDT Switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EB10B6</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>XLR3_Switched</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="XLR3_Switched" description="XLR Connector, Male or Female, 3 Pins, SPDT Switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E9DD72</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>REF02</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm_Socket</footprint>
+      <libsource lib="Tesina-rescue" part="REF02-REF02" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60D1777B</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>LM101</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm_Socket</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm101a-n.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="LM101" description="Operational Amplifier, DIP-8/TO-99-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CF9767</tstamp>
+    </comp>
+    <comp ref="TP1">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Plated_Hole_D4.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CD4EF6</tstamp>
+    </comp>
+    <comp ref="TP2">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Plated_Hole_D4.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CD4EF0</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>XLR3_Switched</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="XLR3_Switched" description="XLR Connector, Male or Female, 3 Pins, SPDT Switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CD4EEA</tstamp>
+    </comp>
+    <comp ref="TP5">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Plated_Hole_D4.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CBD3FC</tstamp>
+    </comp>
+    <comp ref="TP6">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Plated_Hole_D4.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CBD402</tstamp>
+    </comp>
+    <comp ref="TP7">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Plated_Hole_D4.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CC8EBA</tstamp>
+    </comp>
+    <comp ref="TP8">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Plated_Hole_D4.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CC8EB4</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>XLR3_Switched</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="XLR3_Switched" description="XLR Connector, Male or Female, 3 Pins, SPDT Switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CBD408</tstamp>
+    </comp>
+    <comp ref="TP3">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Plated_Hole_D4.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CB24D3</tstamp>
+    </comp>
+    <comp ref="TP4">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Plated_Hole_D4.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CB1421</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>68k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CA777C</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>LM101</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm_Socket</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm101a-n.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="LM101" description="Operational Amplifier, DIP-8/TO-99-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CA6F46</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CA3306</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CA1CB9</tstamp>
+    </comp>
+    <comp ref="TH1">
+      <value>PT100</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical</footprint>
+      <datasheet>https://www.heraeus.com/media/media/group/doc_group/products_1/hst/sot_to/de_15/to_92_d.pdf</datasheet>
+      <libsource lib="Sensor_Temperature" part="PT100" description="PT100 platinum temperature sensor (RTD)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CA0C29</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>LM101</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm_Socket</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm101a-n.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="LM101" description="Operational Amplifier, DIP-8/TO-99-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C9CEFA</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>4k7</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C9176A</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61657950</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61658475</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61659221</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61659227</tstamp>
+    </comp>
+    <comp ref="GND2">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60D059BF</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>1k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C956F2</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6185C74B</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Amplifier_Operational" part="NE5534">
+      <aliases>
+        <alias>SA5534</alias>
+        <alias>LM101</alias>
+        <alias>LM201</alias>
+        <alias>LM301</alias>
+        <alias>AD797</alias>
+        <alias>LT1012</alias>
+      </aliases>
+      <description>Single Low-Noise Operational Amplifiers, DIP-8/SOIC-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/ne5534.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>TO?5*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NE5534</field>
+      </fields>
+      <pins>
+        <pin num="1" name="BAL" type="input"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="COMP" type="input"/>
+        <pin num="6" name="~" type="output"/>
+        <pin num="7" name="V+" type="power_in"/>
+        <pin num="8" name="C/B" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="XLR3_Switched">
+      <description>XLR Connector, Male or Female, 3 Pins, SPDT Switch</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>Jack*XLR*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">XLR3_Switched</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="N" name="~" type="passive"/>
+        <pin num="NC" name="~" type="passive"/>
+        <pin num="NO" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_POT">
+      <description>Potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_POT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Display_Character" part="CC56-12SYKWA">
+      <description>4 digit 7 segment super bright yellow LED, common cathode</description>
+      <docs>http://www.kingbright.com/attachments/file/psearch/000/00/00/CC56-12SYKWA(Ver.6A).pdf</docs>
+      <footprints>
+        <fp>*CA56*12SYKWA*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CC56-12SYKWA</field>
+        <field name="Footprint">Display_7Segment:CA56-12SYKWA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="e" type="input"/>
+        <pin num="2" name="d" type="input"/>
+        <pin num="3" name="DPX" type="input"/>
+        <pin num="4" name="c" type="input"/>
+        <pin num="5" name="g" type="input"/>
+        <pin num="6" name="CC4" type="input"/>
+        <pin num="7" name="b" type="input"/>
+        <pin num="8" name="CC3" type="input"/>
+        <pin num="9" name="CC2" type="input"/>
+        <pin num="10" name="f" type="input"/>
+        <pin num="11" name="a" type="input"/>
+        <pin num="12" name="CC1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Module" part="Arduino_Nano_v2.x">
+      <aliases>
+        <alias>Arduino_Nano_v3.x</alias>
+      </aliases>
+      <description>Arduino Nano v2.x</description>
+      <docs>https://www.arduino.cc/en/uploads/Main/ArduinoNanoManual23.pdf</docs>
+      <footprints>
+        <fp>Arduino*Nano*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">A</field>
+        <field name="Value">Arduino_Nano_v2.x</field>
+        <field name="Footprint">Module:Arduino_Nano</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D1/TX" type="BiDi"/>
+        <pin num="2" name="D0/RX" type="BiDi"/>
+        <pin num="3" name="~RESET" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="D2" type="BiDi"/>
+        <pin num="6" name="D3" type="BiDi"/>
+        <pin num="7" name="D4" type="BiDi"/>
+        <pin num="8" name="D5" type="BiDi"/>
+        <pin num="9" name="D6" type="BiDi"/>
+        <pin num="10" name="D7" type="BiDi"/>
+        <pin num="11" name="D8" type="BiDi"/>
+        <pin num="12" name="D9" type="BiDi"/>
+        <pin num="13" name="D10" type="BiDi"/>
+        <pin num="14" name="D11" type="BiDi"/>
+        <pin num="15" name="D12" type="BiDi"/>
+        <pin num="16" name="D13" type="BiDi"/>
+        <pin num="17" name="3V3" type="power_out"/>
+        <pin num="18" name="AREF" type="input"/>
+        <pin num="19" name="A0" type="BiDi"/>
+        <pin num="20" name="A1" type="BiDi"/>
+        <pin num="21" name="A2" type="BiDi"/>
+        <pin num="22" name="A3" type="BiDi"/>
+        <pin num="23" name="A4" type="BiDi"/>
+        <pin num="24" name="A5" type="BiDi"/>
+        <pin num="25" name="A6" type="BiDi"/>
+        <pin num="26" name="A7" type="BiDi"/>
+        <pin num="27" name="+5V" type="power_out"/>
+        <pin num="28" name="~RESET" type="input"/>
+        <pin num="29" name="GND" type="power_in"/>
+        <pin num="30" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+    <libpart lib="Sensor_Temperature" part="PT100">
+      <aliases>
+        <alias>PT500</alias>
+        <alias>PT1000</alias>
+      </aliases>
+      <description>PT100 platinum temperature sensor (RTD)</description>
+      <docs>https://www.heraeus.com/media/media/group/doc_group/products_1/hst/sot_to/de_15/to_92_d.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+        <fp>PIN?ARRAY*</fp>
+        <fp>bornier*</fp>
+        <fp>Terminal?Block*</fp>
+        <fp>SOD70*</fp>
+        <fp>R*1206*</fp>
+        <fp>R*0805*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TH</field>
+        <field name="Value">PT100</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_DIP_x01">
+      <description>1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SW?DIP?x1*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_DIP_x01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tesina-rescue" part="REF02-REF02">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">REF02-REF02</field>
+      </fields>
+      <pins>
+        <pin num="~" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tesina-rescue" part="RI-resistenze">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RI-resistenze</field>
+      </fields>
+      <pins>
+        <pin num="~" name="1" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Amplifier_Operational">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Amplifier_Operational.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Display_Character">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Display_Character.lib</uri>
+    </library>
+    <library logical="MCU_Module">
+      <uri>C:\Program Files\KiCad\share\kicad\library/MCU_Module.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
+    </library>
+    <library logical="Sensor_Temperature">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Sensor_Temperature.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Switch.lib</uri>
+    </library>
+    <library logical="Tesina-rescue">
+      <uri>C:\Users\Matteo\Desktop\Tesi\Tesi/Tesina-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(J3-Pad2)">
+      <node ref="J3" pin="2"/>
+      <node ref="TP3" pin="1"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="2" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1"/>
+      <node ref="TP5" pin="1"/>
+    </net>
+    <net code="3" name="Net-(J4-Pad1)">
+      <node ref="J4" pin="1"/>
+      <node ref="TP8" pin="1"/>
+    </net>
+    <net code="4" name="Net-(J1-Pad3)">
+      <node ref="U1" pin="6"/>
+      <node ref="TH1" pin="1"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="5" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+      <node ref="TP1" pin="1"/>
+    </net>
+    <net code="6" name="Net-(J2-Pad2)">
+      <node ref="U4" pin="3"/>
+      <node ref="J2" pin="2"/>
+      <node ref="TP6" pin="1"/>
+    </net>
+    <net code="7" name="GND">
+      <node ref="A1" pin="4"/>
+      <node ref="U2" pin="3"/>
+      <node ref="GND1" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="A1" pin="29"/>
+      <node ref="U4" pin="5"/>
+      <node ref="GND2" pin="1"/>
+      <node ref="U3" pin="~"/>
+    </net>
+    <net code="8" name="Net-(J4-Pad3)">
+      <node ref="J4" pin="3"/>
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="9" name="Net-(R4-Pad2)">
+      <node ref="U4" pin="1"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="10" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1"/>
+      <node ref="U4" pin="8"/>
+    </net>
+    <net code="11" name="Net-(J3-Pad1)">
+      <node ref="TP4" pin="1"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="12" name="+15V">
+      <node ref="U1" pin="7"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="U2" pin="7"/>
+      <node ref="A1" pin="28"/>
+      <node ref="U4" pin="7"/>
+      <node ref="U3" pin="~"/>
+      <node ref="A1" pin="30"/>
+      <node ref="A1" pin="3"/>
+    </net>
+    <net code="13" name="-15V">
+      <node ref="SW1" pin="1"/>
+      <node ref="U4" pin="4"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="14" name="Net-(U2-Pad8)">
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="15" name="Net-(J2-Pad3)">
+      <node ref="R1" pin="1"/>
+      <node ref="U2" pin="6"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="16" name="Net-(U2-Pad5)">
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="17" name="Net-(R1-Pad2)">
+      <node ref="R5" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="18" name="Net-(U2-Pad1)">
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="19" name="Net-(J1-Pad2)">
+      <node ref="R5" pin="1"/>
+      <node ref="J1" pin="2"/>
+      <node ref="TP2" pin="1"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="20" name="Net-(A1-Pad26)">
+      <node ref="A1" pin="26"/>
+    </net>
+    <net code="21" name="/RC3">
+      <node ref="U5" pin="6"/>
+      <node ref="A1" pin="11"/>
+    </net>
+    <net code="22" name="/RC2">
+      <node ref="A1" pin="12"/>
+      <node ref="U5" pin="8"/>
+    </net>
+    <net code="23" name="/RC1">
+      <node ref="A1" pin="13"/>
+      <node ref="U5" pin="9"/>
+    </net>
+    <net code="24" name="/RC0">
+      <node ref="A1" pin="14"/>
+      <node ref="U5" pin="12"/>
+    </net>
+    <net code="25" name="Net-(A1-Pad27)">
+      <node ref="A1" pin="27"/>
+    </net>
+    <net code="26" name="Net-(A1-Pad17)">
+      <node ref="A1" pin="17"/>
+    </net>
+    <net code="27" name="Net-(A1-Pad25)">
+      <node ref="A1" pin="25"/>
+    </net>
+    <net code="28" name="Net-(A1-Pad24)">
+      <node ref="A1" pin="24"/>
+    </net>
+    <net code="29" name="Net-(A1-Pad23)">
+      <node ref="A1" pin="23"/>
+    </net>
+    <net code="30" name="Net-(A1-Pad22)">
+      <node ref="A1" pin="22"/>
+    </net>
+    <net code="31" name="Net-(A1-Pad21)">
+      <node ref="A1" pin="21"/>
+    </net>
+    <net code="32" name="Net-(A1-Pad20)">
+      <node ref="A1" pin="20"/>
+    </net>
+    <net code="33" name="Net-(RV1-Pad2)">
+      <node ref="TH1" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="RV1" pin="3"/>
+      <node ref="RV1" pin="2"/>
+    </net>
+    <net code="34" name="Net-(R2-Pad1)">
+      <node ref="RV1" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="35" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="36" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="37" name="Net-(U1-Pad1)">
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="38" name="/RB0U">
+      <node ref="U6" pin="~"/>
+      <node ref="A1" pin="2"/>
+    </net>
+    <net code="39" name="Net-(A1-Pad16)">
+      <node ref="A1" pin="16"/>
+    </net>
+    <net code="40" name="Net-(A1-Pad15)">
+      <node ref="A1" pin="15"/>
+    </net>
+    <net code="41" name="/RB7U">
+      <node ref="A1" pin="10"/>
+      <node ref="U6" pin="~"/>
+    </net>
+    <net code="42" name="/RB6U">
+      <node ref="A1" pin="9"/>
+      <node ref="U6" pin="~"/>
+    </net>
+    <net code="43" name="/RB5U">
+      <node ref="U6" pin="~"/>
+      <node ref="A1" pin="8"/>
+    </net>
+    <net code="44" name="/RB4U">
+      <node ref="A1" pin="7"/>
+      <node ref="U6" pin="~"/>
+    </net>
+    <net code="45" name="/RB3U">
+      <node ref="U6" pin="~"/>
+      <node ref="A1" pin="6"/>
+    </net>
+    <net code="46" name="/RB2U">
+      <node ref="U6" pin="~"/>
+      <node ref="A1" pin="5"/>
+    </net>
+    <net code="47" name="/RB1U">
+      <node ref="U6" pin="~"/>
+      <node ref="A1" pin="1"/>
+    </net>
+    <net code="48" name="/RB7">
+      <node ref="U5" pin="3"/>
+      <node ref="U6" pin="~"/>
+    </net>
+    <net code="49" name="/RB6">
+      <node ref="U6" pin="~"/>
+      <node ref="U5" pin="5"/>
+    </net>
+    <net code="50" name="/RB5">
+      <node ref="U6" pin="~"/>
+      <node ref="U5" pin="10"/>
+    </net>
+    <net code="51" name="/RB4">
+      <node ref="U5" pin="1"/>
+      <node ref="U6" pin="~"/>
+    </net>
+    <net code="52" name="/RB3">
+      <node ref="U6" pin="~"/>
+      <node ref="U5" pin="2"/>
+    </net>
+    <net code="53" name="/RB2">
+      <node ref="U5" pin="4"/>
+      <node ref="U6" pin="~"/>
+    </net>
+    <net code="54" name="/RB1">
+      <node ref="U6" pin="~"/>
+      <node ref="U5" pin="7"/>
+    </net>
+    <net code="55" name="/RB0">
+      <node ref="U5" pin="11"/>
+      <node ref="U6" pin="~"/>
+    </net>
+    <net code="56" name="Net-(SW1-Pad2)">
+      <node ref="SW1" pin="2"/>
+      <node ref="V-1" pin="1"/>
+    </net>
+    <net code="57" name="Net-(SW2-Pad2)">
+      <node ref="V+1" pin="1"/>
+      <node ref="SW2" pin="2"/>
+    </net>
+    <net code="59" name="Net-(U3-Pad~)">
+      <node ref="U3" pin="~"/>
+    </net>
+    <net code="60" name="Net-(U3-Pad~)">
+      <node ref="U3" pin="~"/>
+    </net>
+    <net code="61" name="Net-(U3-Pad~)">
+      <node ref="U3" pin="~"/>
+    </net>
+    <net code="62" name="Net-(U3-Pad~)">
+      <node ref="U3" pin="~"/>
+    </net>
+    <net code="63" name="Net-(U3-Pad~)">
+      <node ref="U3" pin="~"/>
+    </net>
+    <net code="64" name="/5V">
+      <node ref="J4" pin="2"/>
+      <node ref="TP7" pin="1"/>
+      <node ref="J3" pin="3"/>
+      <node ref="A1" pin="18"/>
+      <node ref="U3" pin="~"/>
+    </net>
+    <net code="65" name="/RA0">
+      <node ref="A1" pin="19"/>
+      <node ref="U4" pin="6"/>
+    </net>
+  </nets>
+</export>
